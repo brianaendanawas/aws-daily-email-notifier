@@ -20,8 +20,8 @@ This is a serverless project using AWS Lambda, Amazon SES, and EventBridge Sched
 3. The function uses Python's `boto3` library to call SES and send an email.
 
 ## File Structure
-├── lambda_function.py # Main Lambda function
-├── README.md # This file
+- lambda_function.py # Main Lambda function
+- README.md # This file
 
 ## Setup Notes
 - Both the sender and recipient emails must be verified in SES sandbox mode
